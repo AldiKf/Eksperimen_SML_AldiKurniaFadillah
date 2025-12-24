@@ -27,8 +27,7 @@ def preprocess_data(input_path, output_path):
 
 
 if __name__ == "__main__":
-    # Path Relatif untuk komputer lokal
     input_file = 'student_exam_scores_raw.csv'
     output_file = 'preprocessing/student_score_clean.csv'
-    
+
     preprocess_data(input_file, output_file)
