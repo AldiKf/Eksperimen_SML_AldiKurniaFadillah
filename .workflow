@@ -25,7 +25,7 @@ jobs:
 
       - name: Run Preprocessing Script
         run: |
-          python preprocessing/automate_Al.py
+          python preprocessing/automate_AldiKurniaFadillah.py
 
       - name: Commit Preprocessed Data
         run: |
